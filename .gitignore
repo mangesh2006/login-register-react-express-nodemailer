@@ -1,0 +1,60 @@
+# Node.js (for both frontend and backend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.vscode
+
+# Build output
+/dist
+/build
+*.tsbuildinfo
+
+# React (Frontend-specific)
+frontend/build
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/node_modules
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# MongoDB local db files
+data/
+
+# Next.js build output (if using Next.js for SSR)
+frontend/.next/
+
+# Docker files (if using Docker)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Typescript specific
+*.tsbuildinfo
+
+# Backend-specific
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/node_modules/

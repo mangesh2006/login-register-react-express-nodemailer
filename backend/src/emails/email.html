@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    "
+  >
+    <div
+      style="
+        max-width: 480px;
+        margin: 40px auto;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+      "
+    >
+      <div style="padding: 32px 24px; text-align: center">
+        <h2 style="color: #333333; margin-bottom: 8px">Verify Your Email</h2>
+        <p style="color: #555555; font-size: 16px; margin-bottom: 24px">
+          Enter the following code to complete your signup process:
+        </p>
+
+        <div
+          style="
+            background: #f0f4ff;
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: #2a2a2a;
+            border-radius: 8px;
+          "
+        >
+          {{code}}
+        </div>
+
+        <p style="margin-top: 30px; color: #999999; font-size: 14px">
+          This code will expire in 10 minutes. If you didn’t request this,
+          please ignore this email.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
